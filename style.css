@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: "Kumbh Sans", sans-serif;
+}
+img {
+    display: block;
+}
+
+.container-background {
+    position: relative;
+
+    padding-top: 8.5rem;
+    padding-bottom: 9.5rem;
+
+    background-color: aqua;
+    background-image: url("images/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 35%;
+    background-size: cover;
+    
+    text-align: center;
+}
+.container-background h1, .container-background p {
+    margin: 0.3rem;
+    color: white;
+    text-shadow: 0px 4px 4px black;
+}
+.container-background h1 {
+    font-size: 4rem;
+}
+.container-background p {
+    font-size: 2rem;
+}
+.container-background img {
+    width: 14rem;
+    position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    /* clip-path: circle(); */
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50% 50%;
+    border: 8px solid #617786;
+}
+
+.phrase {
+    padding-top: 8.5rem;
+    text-align: center;
+}
