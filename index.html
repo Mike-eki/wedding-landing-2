@@ -10,6 +10,16 @@
     <title>Sabri & Andre 2025</title>
 </head>
 <body>
+     <dialog id="modal" class="modal-open">
+        <aside class="modal-window">
+            <div class="modal-info">
+                <em id="alias">mi.alias</em>
+                <button onclick="copy('alias')">Copiar</button>
+            </div>
+            <button onclick="handleModal()">Cerrar</button>
+        </aside>
+    </dialog>
+
     <header class="container-background">
         <h1>Sabri & Andre</h1>
         <p>15 Noviembre 2025</p>
@@ -22,43 +32,64 @@
 
     <section class="container-ceremony">
         <h2>Ceremonia</h2>
-        <p>Dirección del lugar 123, Provincia</p>
+        <address>Dirección del lugar 123, Provincia</address>
         <p>19:00h</p>
         <em>Aclaración si ceremonia y fiesta es en el mismo lugar</em>
     </section>
 
     <section class="container-confirm">
         <h2>Confirma tu asistencia</h2>
-        <button>Ir al formulario</button>
+        <a href="#">Ir al formulario</a>
     </section>
 
     <section class="container-gifts">
-        <h2>Lista de regalos</h2>
-        <p>Tu presencia es el mejor regalo, de verdad.</p>
-        <p>Pero si igual queres sumar uno más, te dejamos algunas opciones ;-)</p>
-        <p>¡Gracias!</p>
+        <header>
+            <h2>Lista de regalos</h2>
+            <p>Tu presencia es el mejor regalo, de verdad.</p>
+            <p>Pero si igual queres sumar uno más, te dejamos algunas opciones ;-)</p>
+            <p>¡Gracias!</p>
+        </header>
         <footer class="gifts-list">
             <article class="gift-item">
                 <img src="images/Jeep-Compass.jpg" alt="foto de un jeep compass">
                 <h3>Nombre del regalo</h3>
                 <p>$15.000 ARS</p>
-                <button>Ver alias</button>
+                <button onclick="handleModal()">Ver alias</button>
             </article>
             <article class="gift-item">
                 <img src="images/Jeep-Compass.jpg" alt="foto de un jeep compass">
                 <h3>Nombre del regalo</h3>
                 <p>$15.000 ARS</p>
-                <button>Ver alias</button>
+                <button onclick="handleModal()">Ver alias</button>
             </article>
             <article class="gift-item">
                 <img src="images/Jeep-Compass.jpg" alt="foto de un jeep compass">
                 <h3>Nombre del regalo</h3>
                 <p>$15.000 ARS</p>
-                <button>Ver alias</button>
+                <button onclick="handleModal()">Ver alias</button>
+            </article>
+            <article class="gift-item">
+                <img src="images/Jeep-Compass.jpg" alt="foto de un jeep compass">
+                <h3>Nombre del regalo</h3>
+                <p>$15.000 ARS</p>
+                <button onclick="handleModal()">Ver alias</button>
+            </article>
+            <article class="gift-item">
+                <img src="images/Jeep-Compass.jpg" alt="foto de un jeep compass">
+                <h3>Nombre del regalo</h3>
+                <p>$15.000 ARS</p>
+                <button onclick="handleModal()">Ver alias</button>
+            </article>
+            <article class="gift-item">
+                <img src="images/Jeep-Compass.jpg" alt="foto de un jeep compass">
+                <h3>Nombre del regalo</h3>
+                <p>$15.000 ARS</p>
+                <button onclick="handleModal()">Ver alias</button>
             </article>
         </footer>
     </section>
 
+   
     <script src="main.js"></script>
 </body>
 </html>
