@@ -24,6 +24,14 @@ address {
 a {
     text-decoration: none;
 }
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+section {
+    padding: 1rem;
+}
 
 dialog {
     position: fixed;
@@ -69,9 +77,11 @@ dialog {
 
     padding-top: 8.5rem;
     padding-bottom: 9.5rem;
+    padding-inline: 1rem;
 
-    background-color: aqua;
+    background-color: rgb(188, 231, 231);
     background-image: url("images/background.jpeg");
+    background-blend-mode:luminosity;
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 35%;
@@ -80,7 +90,6 @@ dialog {
     text-align: center;
 }
 .container-background h1, .container-background p {
-    margin: 0.3rem;
     color: white;
     text-shadow: 0px 4px 4px black;
 }
@@ -91,7 +100,7 @@ dialog {
     font-size: 2rem;
 }
 .container-background img {
-    width: 14rem;
+    width: 18.5rem;
     position: absolute;
         top: 100%;
         left: 50%;
@@ -103,12 +112,11 @@ dialog {
 }
 
 .phrase {
-    padding-top: 8rem;
+    padding-top: 10.5rem;
     text-align: center;
 }
 
 .container-ceremony {
-    padding-top: 1rem;
     text-align: center;
 }
 .container-ceremony address {
@@ -119,8 +127,6 @@ dialog {
 }
 
 .container-confirm {
-    padding-block: 2rem;
-    margin-top: 2rem;
     background-color: #617786;
     text-align: center;
     color: white;
@@ -135,20 +141,18 @@ dialog {
     color: white;
 }
 
-.container-gifts {
-    margin-top: 2rem;
-}
-.container-gifts header {
-    padding-top: 1rem;
-    padding-bottom: 3rem;
+.container-accommodation {
     text-align: center;
 }
 
+.container-gifts header {
+    padding-bottom: 2rem;
+    text-align: center;
+}
 .gifts-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-inline: 2rem;
     gap: 1rem;
 }
 .gift-item {
