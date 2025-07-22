@@ -80,11 +80,11 @@ dialog {
     padding-inline: 1rem;
 
     background-color: rgb(188, 231, 231);
-    background-image: url("images/background.jpeg");
+    background-image: url("images/background2.jpeg");
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: 35%;
+    /* background-position: center; */
+    background-position-y: 75%;
     background-size: cover;
     
     text-align: center;
@@ -156,7 +156,7 @@ dialog {
     gap: 1rem;
 }
 .gift-item {
-    max-width: 20rem;
+    max-width: 17rem;
     text-align: center;
 }
 .gift-item img {
