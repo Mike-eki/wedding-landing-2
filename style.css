@@ -81,7 +81,7 @@ dialog {
 
     background-color: rgb(188, 231, 231);
     background-image: url("images/background.jpeg");
-    background-blend-mode:luminosity;
+    background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 35%;
@@ -158,6 +158,11 @@ dialog {
 .gift-item {
     max-width: 20rem;
     text-align: center;
+}
+.gift-item img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
 }
 .gift-item button {
     padding: 0.7rem;
