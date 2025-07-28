@@ -81,9 +81,8 @@ dialog {
 
     background-color: rgb(188, 231, 231);
     background-image: url("images/background2.jpeg");
-    background-blend-mode: luminosity;
+    /* background-blend-mode: luminosity; */
     background-repeat: no-repeat;
-    /* background-position: center; */
     background-position-y: 75%;
     background-size: cover;
     
@@ -111,9 +110,8 @@ dialog {
     border: 8px solid #617786;
 }
 
-.phrase {
+.spacer {
     padding-top: 10.5rem;
-    text-align: center;
 }
 
 .container-ceremony {
@@ -124,6 +122,13 @@ dialog {
 }
 .container-ceremony p {
     font-size: 1.4rem;
+}
+.container-ceremony img {
+    width: 100%;
+    max-width: 30rem;
+    margin-block: 1rem;
+    margin-inline: auto;
+    border-radius: 0.5rem;
 }
 
 .container-confirm {
@@ -141,11 +146,8 @@ dialog {
     color: white;
 }
 
-.container-accommodation {
-    text-align: center;
-}
-
 .container-gifts header {
+    padding-block: 1rem;
     padding-bottom: 2rem;
     text-align: center;
 }
@@ -156,7 +158,7 @@ dialog {
     gap: 1rem;
 }
 .gift-item {
-    max-width: 17rem;
+    max-width: 16rem;
     text-align: center;
 }
 .gift-item img {
@@ -172,4 +174,18 @@ dialog {
     border: none;
     color: white;
     cursor: pointer;
+}
+
+.container-accommodation {
+    text-align: center;
+    background-color: #617786;
+    color: white;
+    /* margin-top: 3rem; */
+    padding-top: 2rem;
+}
+.container-accommodation a {
+
+}
+.container-accommodation ul li {
+    margin-block: 2rem;
 }
