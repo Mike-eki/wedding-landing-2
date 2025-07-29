@@ -157,10 +157,14 @@ dialog {
     font-size: 1.4rem;
 }
 .gifts-list {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 2rem; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    grid-gap: 1.4rem;
+    justify-items: center;
 }
 .gift-item {
     max-width: 11rem;
