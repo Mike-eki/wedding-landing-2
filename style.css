@@ -107,7 +107,7 @@ dialog {
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 50% 50%;
-    border: 8px solid #617786;
+    border: 8px solid #5684a2;
 }
 
 .spacer {
@@ -122,6 +122,9 @@ dialog {
 }
 .container-ceremony p {
     font-size: 1.4rem;
+}
+.container-ceremony a {
+    color: rgb(47, 100, 225);
 }
 .container-ceremony img {
     width: 100%;
@@ -140,10 +143,10 @@ dialog {
     display: inline-block;
     margin-block: 1rem;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 2rem;
     border-radius: 0.5rem;
-    background-color: #2d497d;
-    color: white;
+    background-color: #a8c1ee;
+    color: black;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -151,19 +154,21 @@ dialog {
     padding-block: 1rem;
     padding-bottom: 2rem;
     text-align: center;
+    font-size: 1.4rem;
 }
 .gifts-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
 }
 .gift-item {
-    max-width: 12rem;
+    max-width: 11rem;
     text-align: center;
 }
 .gift-item h3 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 300;
 }
 .gift-item p {
     margin-block: 0.7rem;
