@@ -18,6 +18,9 @@ h2 {
 h3 {
     font-size: 1.75rem;
 }
+p {
+    text-wrap-style: pretty;
+}
 address {
     font-style: normal;
 }
@@ -201,9 +204,43 @@ dialog {
     /* margin-top: 3rem; */
     padding-top: 2rem;
 }
+.container-accommodation header {
+    padding-block: 1rem;
+    padding-bottom: 2rem;
+}
+.container-accommodation header p {
+    max-width: 90ch;
+    margin-inline: auto;
+    font-size: 1.2rem;
+}
 .container-accommodation a {
+    background-color: #a8c1ee;
     color: black;
+    padding-block: 0.5rem;
+    border-radius: 0.3rem;
+}
+.container-accommodation ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 1.5rem;
+    justify-items: center;
+    padding-inline: 0;
 }
 .container-accommodation ul li {
-    margin-block: 2rem;
+    background-color: rgb(41, 61, 83);
+    border-radius: 0.2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-accommodation ul li img {
+    margin-inline: auto;
+    max-width: 10rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.container-accommodation li p{
+    max-width: 40ch;
 }
