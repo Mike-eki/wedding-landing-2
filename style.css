@@ -110,7 +110,7 @@ dialog {
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 50% 50%;
-    border: 8px solid #5684a2;
+    border: 8px solid #637687;
 }
 
 .spacer {
@@ -151,6 +151,10 @@ dialog {
     background-color: #a8c1ee;
     color: black;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container-confirm em {
+    display: block;
+    font-size: 1.2rem;
 }
 
 .container-gifts header {
@@ -243,4 +247,9 @@ dialog {
 }
 .container-accommodation li p{
     max-width: 40ch;
+}
+.container-accommodation em {
+    display: block;
+    padding-block: 3rem;
+    font-size: 1.7rem;
 }
